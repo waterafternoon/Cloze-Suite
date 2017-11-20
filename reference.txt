@@ -1,0 +1,51 @@
+
+Control+Alt+\:
+	Reload script
+
+Alt+Control+c:
+	;keys keep on getting stuck somwhere? insert this command at the end of any command to try to fix it.
+	send {alt up}{shift up}{ctrl up}
+Return
+
+Control+Alt+Shift+7:
+;keys keep on getting stuck somwhere? insert this command at the end of any command to try to fix it.
+	send {alt up}{shift up}{ctrl up}
+	Mouseclick, left, 500,500
+	Send {Left}
+Return
+
+Control+Alt+ScrollLock:
+	Toggle NPP Mode
+
+Control+Alt+NumPad1-6: 
+	Make Cloze
+
+Control+Alt+NumPad9: 
+	Custom Number Cloze
+
+Control+Alt+NumpadDiv: 
+	pythonahk("splitbypunct")
+
+Alt+NumpadDiv: 
+	pythonahk("splitsentences")
+
+Control+Alt+Numpad8: 
+	pythonahk("autoc") 
+
+Control+Alt+NumPadAdd: 
+	pythonahk("despace")
+	
+Control+Alt+NumPad0: 
+	adds your preamble
+
+Control+Alt+Up: 
+	Make highlighted uppercase
+
+Control+Alt+Down: 
+	Make highlighted lowercase
+
+Control+Alt+NumPadSub: 
+	Undo 5
+
+Alt+NumPadSub: 
+	Undo 4
