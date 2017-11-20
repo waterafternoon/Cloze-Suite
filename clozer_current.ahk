@@ -205,12 +205,13 @@ return
 return
 
 ^!Right::
-	sendraw, ####
+	clearkeys()
+    send, <br>
 return
 
 !Right::
-	sendraw, !!!!
-	clearkeys()
+    clearkeys()
+	send, <br>
 return
 
 !Left::
